@@ -23,6 +23,7 @@ public class Dialogue : MonoBehaviour
         textComponent.text = string.Empty;
         // StartDialogue();
         linesNew = (textFile.text.Split( '\n' )); //splits text into array
+        lineIndex = linesNew.Length;
         
     }
 
@@ -61,8 +62,8 @@ public class Dialogue : MonoBehaviour
     void StartDialogue()
     {
         // Character.canMove = false;
-        lineIndex = 0;
         StartCoroutine(TypeLine());
+        // lineIndex = 0;
     }
 
     IEnumerator TypeLine()

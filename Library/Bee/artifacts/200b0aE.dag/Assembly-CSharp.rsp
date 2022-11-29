@@ -360,6 +360,7 @@
 "Assets/Scripts/Character.cs"
 "Assets/Scripts/Dialogue.cs"
 "Assets/Scripts/ShowText.cs"
+"Assets/Scripts/ShowTextTrigger.cs"
 -langversion:9.0
 
 /deterministic
